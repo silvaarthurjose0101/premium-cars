@@ -1,0 +1,27 @@
+pagina1: logo da loja, uma frase de efeito para fazer o cliente se interesar nos veiculos,
+ menu com abas que abri outras paginas ex: de carros a vendas, carrosel, Cards
+ nome da loja, carros (pesquisa, promoções, mais a vendidos), login, suas compras, equipe e no Footer(contatos).
+
+pagina2: explicar sobre objetivo do projeto e como o planejamos.
+
+pagina3: várias fotos de carro, nomes, descrições dos carros, e com um aba no conto superior esquerdo com opções
+ promoções, pesquisa, e mais vendidos, e vai aperecer no canto supeiror direito da foto do carro se for um dos mais vendidos,
+ com promoção e com quantos porcetos ex: 70%
+
+pagina4: várias fotos de carro, nomes, descrições dos carros com promoções
+
+página5: várias fotos de carro, nomes, descrições dos carros os mais vendidos 
+
+página6: aparece o carro da respectiva pesquisa do cliente
+
+pagina7: equipe (nome, foto dos integrantes, o papel de cada um no projeto)
+
+pagina8: fazer o Der no BrModelo e fluxograma no myro.
+
+login: após clicar no login vai abrir caixa para digitar suas infomações para efetuar o login.
+
+Fundo principal: #0F172A — azul-marinho bem escuro
+Cards: #1E293B — azul/cinza escuro
+Texto: #F8FAFC — branco
+Destaque: #EAB308 — amarelo/dourado
+Botões: #EAB308 com texto escuro
