@@ -1,3 +1,6 @@
+/* home.html  */
+
+
 html, body{
     margin: 0;
     padding: 0;
@@ -857,7 +860,6 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-/* CELULAR */
 @media (max-width: 768px){
 
     #areaUsuario{
@@ -870,3 +872,448 @@ nav ul li a:hover{
         font-size: 14px;
     }
 }
+
+.btn-cadastro {
+    width: 100%;
+    padding: 12px;
+    background-color: #EAB308;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.btn-cadastro:hover {
+    background-color: white;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    overflow-wrap: break-word;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.contato-box {
+    width: calc(100% - 32px);
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.processo-container {
+    width: calc(100% - 32px);
+    max-width: 1400px;
+    margin: 30px auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.card {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.card h2 {
+    margin-left: 0;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.equipe {
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.membro {
+    min-width: 0;
+}
+
+.membro img {
+    flex-shrink: 0;
+}
+
+.info {
+    min-width: 0;
+}
+
+.container-sobre {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr)
+                         minmax(0, 1fr);
+    gap: 20px;
+}
+
+.sobre {
+    max-width: 100%;
+}
+
+.conteudo {
+    min-width: 0;
+}
+
+table {
+    max-width: 100%;
+}
+
+.lista-produtos {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    min-width: 0;
+}
+
+.produto1 {
+    min-width: 0;
+}
+
+.produto-conteudo1 h2 {
+    margin-left: 0;
+    overflow-wrap: anywhere;
+}
+
+.carousel {
+    max-width: calc(100% - 32px);
+    height: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
+
+.cards-home {
+    max-width: 100%;
+}
+
+.card-home {
+    width: 100%;
+    max-width: 500px;
+    min-width: 0;
+}
+
+/* ========================================
+   TABLETS
+======================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .lista-produtos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .processo-container {
+        gap: 18px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .equipe {
+        grid-template-columns: 1fr;
+    }
+
+    .container-sobre {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .sobre {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ========================================
+   CELULARES
+======================================== */
+@media (max-width: 767px) {
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 12px;
+        max-width: 100%;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+    nav button,
+    nav .login-btn {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 32px;
+        overflow-wrap: anywhere;
+    }
+
+    h2 {
+        margin-left: 0;
+    }
+
+    .carros1 {
+        font-size: 2rem;
+        padding: 0 12px;
+    }
+
+    .carousel {
+        width: calc(100% - 24px);
+        margin: 20px auto;
+    }
+
+    .carousel-item img {
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
+    }
+
+    .cards-home {
+        width: 100%;
+        padding: 0 12px;
+        margin: 24px auto;
+        gap: 20px;
+    }
+
+    .card-home {
+        width: 100%;
+    }
+
+    .card-home img {
+        height: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+    }
+
+    .card-home .texto {
+        padding: 18px;
+    }
+
+    .card-home .texto h3 {
+        font-size: 24px;
+    }
+
+    .lista-produtos {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 12px;
+        gap: 18px;
+    }
+
+    .imagem-card {
+        height: 200px;
+    }
+
+    .produto-conteudo1 {
+        padding: 16px;
+    }
+
+    .produto-conteudo1 h2 {
+        font-size: 22px;
+    }
+
+    .container-sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 16px;
+        gap: 20px;
+        margin-top: 10px;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .conteudo p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .conteudo h1 {
+        font-size: 30px;
+    }
+
+    .conteudo h3 {
+        font-size: 23px;
+    }
+
+    .imagem-esquerda,
+    .imagem-direita {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .sobre {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        overflow-wrap: anywhere;
+    }
+
+    .contato-box {
+        padding: 20px;
+        margin: 24px auto;
+    }
+
+    .contato-box p {
+        font-size: 16px;
+        overflow-wrap: anywhere;
+    }
+
+    .icone {
+        width: 60px;
+        height: 60px;
+    }
+
+    .processo-container {
+        width: calc(100% - 24px);
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+        margin: 20px auto;
+    }
+
+    .card {
+        min-height: 0;
+        padding: 16px;
+    }
+
+    .card img {
+        height: auto;
+        max-height: 300px;
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
+    }
+
+    .card h2 {
+        font-size: 23px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .equipe {
+        width: calc(100% - 24px);
+        grid-template-columns: minmax(0, 1fr);
+        gap: 28px;
+        margin: 24px auto;
+    }
+
+    .membro {
+        align-items: center;
+        gap: 16px;
+    }
+
+    .membro img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .info h2 {
+        font-size: 22px;
+    }
+
+    .info h3 {
+        font-size: 16px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .footer-container h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .membro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .membro img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    nav ul {
+        gap: 8px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+}
+
